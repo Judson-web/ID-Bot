@@ -14,27 +14,27 @@
         "API_HASH": {
             "description": "Your API Hash From @MT_MyTelegramOrg_Bot",
             "required": "True",
-            "value": "required"
+            "value": ""
         },
         "API_ID": {
             "description": "Your APP ID From @MT_MyTelegramOrg_Bot",
             "required": "True",
-            "value": "required"
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "required": "True",
-            "value": "required"
+            "value": ""
         },
         "BOT_USERNAME": {
             "description": "Bot UserName Without @",
             "required": "True",
-            "value": "required"
+            "value": ""
         },
         "UPDATE_CHANNEL": {
             "description": "Channel User Name Without @",
             "required": "True",
-            "value": "required"
+            "value": ""
         }
     },
     "stack": "container",
