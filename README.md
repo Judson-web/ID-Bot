@@ -62,7 +62,7 @@ python3 -m motech.py
 * /id - To Get TG ID
 * /info - To Get TG Info
 * /Json - To  get json file of replied Message or Media
-* /stickerid - Reply This Command To Ant Sticker To Get ID
+* /stickerid - Reply This Command To Any Sticker To Get ID
 
 </pre>
 </p>
