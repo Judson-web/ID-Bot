@@ -63,5 +63,5 @@ async def info(motech, msg):
                 text += f'\n\n➡️ Fʀᴏᴍ : @{msg.forward_from_chat["username"]}'
                 text += f'\n\n🆔 ɪᴅ : `{msg.forward_from_chat["id"]}`'
             else:
-                text += f'\n\n🆔 ɪᴅ `{msg.forward_from_chat["id"]}`\n\n'
+                text += f'\n\n🆔 ɪᴅ : `{msg.forward_from_chat["id"]}`\n\n'
             await msg.reply(text, quote=True)
