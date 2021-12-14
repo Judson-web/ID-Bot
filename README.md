@@ -52,6 +52,22 @@ python3 -m motech.py
 </p>
 </details>
 
+<details><summary>Commands</summary>
+<p>
+<pre>
+                                                                                                            
+* /start -  To Check Bot Alive Or Not 💝                                                                                                                           
+* /help - Get More Information 🙂
+* /about - Bio Data Of Bot 🤣
+* /id - To Get TG ID
+* /info - To Get TG Info
+* /Json - To  get json file of replied Message or Media
+* /stickerid - Reply This Command To Ant Sticker To Get ID
+
+</pre>
+</p>
+</details>
+
 <details><summary>Credits</summary>
 <p>
 <pre>
