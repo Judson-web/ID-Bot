@@ -47,7 +47,7 @@ Running https://github.com/Judson-web/ID-Bot/tree/blob/main
 cd Judson-web/ID-Bot-ReMaster
 pip3 install -r requirements.txt
 # Change The Vars Of bot/__init__.py File Accordingly
-python3 -m motech.py
+python3 -m tgidfinder.py
 </pre>
 </p>
 </details>
