@@ -85,6 +85,16 @@ Deploy Eror Fixed By [Me](https://github.com/Judson-web)
 </p>
 </details>
 
-# BOT FEATURE
+## Support
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/STMbOTsUPPORTgROUP)
 
-*A SIMPLE TELEGRAM BOT TO GET ID OF A PERSON CHANNEL OR A STICKER PACK..... 
+## Thanks to 
+
+ - Thanks To [MRK-YT](https://github.com/MRK-YT) For His [Repo](https://github.com/MRK-YT/ID-Bot)
+ - And Also [Muhammed](https://github.com/PR0FESS0R-99) For His [Repo(Original)](https://github.com/PR0FESS0R-99/ID-Bot-V1)
+ - Thanks To Me For Fixing Heroku Deploy Error And Modifying This [Repo](https://github.com/Judson-web/ID-Bot)
+
+## Disclaimer
+[![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
+Licensed under [GNU AGPL 3.0.](https://github.com/Judson-web/ID-Bot/blob/master/LICENSE)
+Selling The Codes To Other People For Money Is *Strictly Prohibited*
