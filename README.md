@@ -10,8 +10,6 @@
 [![Size](https://img.shields.io/github/repo-size/Judson-web/ID-Bot?style=flat-square&color=green)](https://github.com/Judson-web/ID-Bot/)   
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Judson-web/ID-Bot)   
 [![Contributors](https://img.shields.io/github/contributors/Judson-web/ID-Bot?style=flat-square&color=green)](https://github.com/Judson-web/ID-Bot/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Judson-web/ID-Bot/blob/main/LICENSE)
-
 
 </a>
 </p>
