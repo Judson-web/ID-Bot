@@ -2,7 +2,7 @@ class Translation(object):
 
     START_MSG = """
 👋Hᴇʏ {},
-Bshjsjajajsskskskskass
+
 Iᴀᴍ A Sɪᴍᴘʟᴇ Bᴏᴛ Fᴏʀ Fɪɴᴅɪɴɢ ID's Iɴ Tᴇʟᴇɢʀᴀᴍ.. 🔍 🆔
 
 Cʟɪᴄᴋ Tʜᴇ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Oʀ Sᴇɴᴅ /help Fᴏʀ Mᴏʀᴇ Iɴғᴏʀᴍᴀᴛɪᴏɴ
