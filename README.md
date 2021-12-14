@@ -5,6 +5,11 @@
   <b>[TG] User Information Fetch Bot</b>
 </h1>
 
+<h1 align="center">
+  <b>A SIMPLE TELEGRAM BOT TO GET ID OF A PERSON CHANNEL OR A STICKER PACK
+</b>
+</h1>
+
 [![Stars](https://img.shields.io/github/stars/Judson-web/ID-Bot?style=flat-square&color=yellow)](https://github.com/Judson-web/ID-Bot/stargazers)
 [![Forks](https://img.shields.io/github/forks/Judson-web/ID-Bot?style=flat-square&color=orange)](https://github.com/Judson-web/ID-Bot/fork)
 [![Size](https://img.shields.io/github/repo-size/Judson-web/ID-Bot?style=flat-square&color=green)](https://github.com/Judson-web/ID-Bot/)   
