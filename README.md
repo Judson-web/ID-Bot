@@ -96,5 +96,5 @@ Deploy Eror Fixed By [Me](https://github.com/Judson-web)
 
 ## Disclaimer
 [![GNU General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU GPL 3.0.](https://github.com/Judson-web/ID-Bot/blob/master/LICENSE)
+Licensed under [GNU GPL 3.0.](https://github.com/Judson-web/ID-Bot/blob/master/LICENSE) 
 Selling The Codes To Other People For Money Is *Strictly Prohibited*
