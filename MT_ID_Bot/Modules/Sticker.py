@@ -21,15 +21,15 @@ async def stickers(motech, msg):
         try:
             user = await motech.get_chat_member(update_channel, msg.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
             await msg.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
@@ -39,7 +39,7 @@ async def stickers(motech, msg):
 @MT_ID_Bot.on_message(filters.command(["stickerid"]))
 async def stickerid(bot, message):   
     if message.reply_to_message.sticker:
-       await message.reply(f"**𝐘𝐨𝐮𝐫 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐢𝐝 𝐢𝐬**  \n `{message.reply_to_message.sticker.file_id}` \n \n ** Unique ID is ** \n\n`{message.reply_to_message.sticker.file_unique_id}`", quote=True)
+       await message.reply(f"**Yᴏᴜʀ Sᴛɪᴄᴋᴇʀ ID Is**  \n `{message.reply_to_message.sticker.file_id}` \n \n **Uɴɪᴏ̨ᴜᴇ ID ɪs** \n\n`{message.reply_to_message.sticker.file_unique_id}`", quote=True)
     else: 
-       await message.reply("𝐇𝐦𝐦𝐦 𝐢𝐭'𝐬 𝐧𝐨𝐭 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫...!!!")
+       await message.reply("Hᴍᴍᴍ Iᴛ's Nᴏᴛ A Sᴛɪᴄᴋᴇʀ...!!!")
     
