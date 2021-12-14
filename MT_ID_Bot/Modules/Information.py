@@ -19,15 +19,15 @@ async def id_handler(motech, update):
         try:
             user = await motech.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
             await update.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
@@ -49,15 +49,15 @@ async def info_handler(motech, update):
         try:
             user = await motech.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
             await update.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
@@ -68,7 +68,7 @@ async def info_handler(motech, update):
     if update.from_user.last_name:
         last_name = update.from_user.last_name
     else:
-        last_name = "𝐍𝐨𝐧𝐞😔"
+        last_name = "Nᴏɴᴇ😔"
 
     reply_markup = INFO_BUTTON 
     await update.reply_text(  
