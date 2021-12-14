@@ -1,4 +1,4 @@
-## Information Bot
+## [TG] User Information Fetch Bot
 
   </a>
 </p>
@@ -17,7 +17,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/MRK-YT/ID-Bot/tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/Judson-web/ID-Bot/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
