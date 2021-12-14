@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://telegra.ph/file/11cb09637337420332433.jpg" alt="telegram id">
+  <img src="https://i.ibb.co/p3Ycvh5/photo-2021-04-23-17-46-14-removebg-preview.png" alt="𝙼𝚎𝚙𝚑𝚒𝚜𝚝𝚘 Logo">
 </p>
 <h1 align="center">
   <b>[TG] User Information Fetch Bot</b>
 </h1>
 
-  </a>
+</a>
 </p>
 <p align="center">
   <a href="https://github.com/Judson-web/ID-Bot/stargazers">
