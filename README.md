@@ -49,6 +49,9 @@ Join Our [Telegram Group](https://www.telegram.dog/Mo_Tech_Group) For Support/As
 **Report Bugs**, Give Feature Requests There..
    
 Do **Fork** And **Star** The Repository If You Liked It.
+
+(Deploy Eror Fixed By [Me](https://github.com/Judson-web)
+
 </pre>
 </p>
 </details>
