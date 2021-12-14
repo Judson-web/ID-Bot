@@ -5,6 +5,14 @@
   <b>[TG] User Information Fetch Bot</b>
 </h1>
 
+[![Stars](https://img.shields.io/github/stars/Judson-web/ID-Bot?style=flat-square&color=yellow)](https://github.com/Judson-web/ID-Bot/stargazers)
+[![Forks](https://img.shields.io/github/forks/Judson-web/ID-Bot?style=flat-square&color=orange)](https://github.com/Judson-web/ID-Bot/fork)
+[![Size](https://img.shields.io/github/repo-size/Judson-web/ID-Bot?style=flat-square&color=green)](https://github.com/Judson-web/ID-Bot/)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Judson-web/ID-Bot)   
+[![Contributors](https://img.shields.io/github/contributors/Judson-web/ID-Bot?style=flat-square&color=green)](https://github.com/Judson-web/ID-Bot/graphs/contributors)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Judson-web/ID-Bot/blob/main/LICENSE)
+
+
 </a>
 </p>
 <p align="center">
@@ -44,10 +52,6 @@ python3 -m motech.py
 <p>
 <pre>
                                                                                                             
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/Judson-web/ID-Bot)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20Me-Anything-1abc9c.svg)](https://telegram.dog/VAMPIRE_KING_NO_1)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/)
-[![Join Channel !](https://badgen.net/badge/🔊%20Join%20/Channel/Black)](https://telegram.dog/mo_tech_YT)
 
 Join Our [Telegram Group](https://www.telegram.dog/Mo_Tech_Group) For Support/Assistance And Our [Channel](https://www.telegram.dog/Mo_Tech_YT) For Updates.   
    
