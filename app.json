@@ -29,12 +29,12 @@
         "BOT_USERNAME": {
             "description": "Bot UserName Without @",
             "required": "True",
-            "value": ""
+            "value": "TGIdsSTMBot"
         },
         "UPDATE_CHANNEL": {
             "description": "Channel User Name Without @",
             "required": "True",
-            "value": ""
+            "value": "storytimeoGG"
         }
     },
     "stack": "container",
