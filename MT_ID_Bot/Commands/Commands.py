@@ -12,11 +12,11 @@ JOIN=Translation.JOIN_TEXT # Button Text (Update Channel)
 TRY=Translation.TRY_TEXT # Button Text (Update Channel)
 SUB_TEXT=Translation.FSUB_TEXT # FSUB Information Text
 
-developer="Mrk_yt"
-co_developer="MR_JINN_OF_TG"
-source="https://github.com/PR0FESS0R-99/ID-Bot"
-mt_chat="mo_tech_group"
-mt_bot="mo_tech_yt"
+developer="VAMPIRE_KING_NO_1"
+co_developer="VAMPIRE_KING_NO_2"
+source="https://t.me/NOKIERUNNOIPPKITTUM"
+mt_chat="STMbOTsUPPORTgROUP"
+mt_bot="storytimeoGG"
 
 @MT_ID_Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(motech, update):
@@ -25,15 +25,15 @@ async def start_handler(motech, update):
         try:
             user = await motech.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
+            #await update.reply_text(f"Jᴏɪɴ @{Channel User Name} To Use Me") From Motech.py
             await update.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ Nᴏᴡ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
@@ -55,15 +55,15 @@ async def help_handler(motech, update):
         try:
             user = await motech.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
             await update.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ Nᴏᴡ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
@@ -84,15 +84,15 @@ async def about_handler(motech, update):
         try:
             user = await motech.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
             await update.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ Nᴏᴡ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
