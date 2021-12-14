@@ -1,4 +1,9 @@
-## [TG] User Information Fetch Bot
+<p align="center">
+  <img src="https://telegra.ph/file/11cb09637337420332433.jpg" alt="telegram id">
+</p>
+<h1 align="center">
+  <b>[TG] User Information Fetch Bot</b>
+</h1>
 
   </a>
 </p>
