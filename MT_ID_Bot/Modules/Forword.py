@@ -18,15 +18,15 @@ async def info(motech, msg):
         try:
             user = await motech.get_chat_member(update_channel, msg.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await update.reply_text("😔 Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ ᴀʀᴇ**🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
             await msg.reply_text(
                 text=f"<b>{SUB_TEXT}</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=f"{JOIN}", url=f"t.me/{UPDATE_CHANNEL}")],
-                    [ InlineKeyboardButton(text=f"{TRY}", url=f"https://t.me/{BOT_USERNAME}?start=try")]
+                    [ InlineKeyboardButton(text=f"Jᴏɪɴ", url=f"t.me/{UPDATE_CHANNEL}")],
+                    [ InlineKeyboardButton(text=f"Tʀʏ", url=f"https://t.me/{BOT_USERNAME}?start=try")]
               ])
             )
             return
@@ -34,34 +34,34 @@ async def info(motech, msg):
             await msg.reply_text(f"@{UPDATE_CHANNEL}")
             return
     if msg.forward_from:
-        text = "<u>𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 👀</u> \n\n"
+        text = "<u>Fᴏʀᴡᴀʀᴅ Iɴғᴏʀᴍᴀᴛɪᴏɴ 👀</u> \n\n"
         if msg.forward_from["is_bot"]:
-            text += "<u>🤖 𝐁𝐨𝐭 𝐈𝐧𝐟𝐨</u>"
+            text += "<u>🤖 Bᴏᴛ Iɴғᴏ</u>"
         else:
-            text += "<u>👤𝐔𝐬𝐞𝐫 𝐈𝐧𝐟𝐨</u>"
-        text += f'\n\n👨‍💼 𝐍𝐚𝐦𝐞 : {msg.forward_from["first_name"]}'
+            text += "<u>👤Usᴇʀ Iɴғᴏ</u>"
+        text += f'\n\n👨‍💼 Nᴀᴍᴇ : {msg.forward_from["first_name"]}'
         if msg.forward_from["username"]:
-            text += f'\n\n🔗 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{msg.forward_from["username"]} \n\n🆔 ID : <code>{msg.forward_from["id"]}</code>'
+            text += f'\n\n🔗 Usᴇʀɴᴀᴍᴇ : @{msg.forward_from["username"]} \n\n🆔 ɪᴅ : <code>{msg.forward_from["id"]}</code>'
         else:
-            text += f'\n\n🆔 𝐈𝐃 : `{msg.forward_from["id"]}`'
+            text += f'\n\n🆔 ɪᴅ : `{msg.forward_from["id"]}`'
         await msg.reply(text, quote=True)
     else:
         hidden = msg.forward_sender_name
         if hidden:
             await msg.reply(
-                f"❌️𝐄𝐫𝐫𝐨𝐫 <b><i>{hidden}</i></b> ❌️𝐄𝐫𝐫𝐨𝐫",
+                f"❌️Eʀʀᴏʀ <b><i>{hidden}</i></b> ❌️Eʀʀᴏʀ",
                 quote=True,
             )
         else:
-            text = f"<u>𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 👀</u>.\n\n"
+            text = f"<u>Fᴏʀᴡᴀʀᴅ Iɴғᴏʀᴍᴀᴛɪᴏɴ 👀</u>.\n\n"
             if msg.forward_from_chat["type"] == "channel":
-                text += "<u>📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</u>"
+                text += "<u>📢 Cʜᴀɴɴᴇʟ</u>"
             if msg.forward_from_chat["type"] == "supergroup":
-                text += "<u>🗣️ 𝐆𝐫𝐨𝐮𝐩</u>"
-            text += f'\n\n📃 𝐍𝐚𝐦𝐞 {msg.forward_from_chat["title"]}'
+                text += "<u>🗣️ Gʀᴏᴜᴘ</u>"
+            text += f'\n\n💼 Nᴀᴍᴇ {msg.forward_from_chat["title"]}'
             if msg.forward_from_chat["username"]:
-                text += f'\n\n➡️ 𝐅𝐫𝐨𝐦 : @{msg.forward_from_chat["username"]}'
-                text += f'\n\n🆔 𝐈𝐃 : `{msg.forward_from_chat["id"]}`'
+                text += f'\n\n➡️ Fʀᴏᴍ : @{msg.forward_from_chat["username"]}'
+                text += f'\n\n🆔 ɪᴅ : `{msg.forward_from_chat["id"]}`'
             else:
-                text += f'\n\n🆔 𝐈𝐃 `{msg.forward_from_chat["id"]}`\n\n'
+                text += f'\n\n🆔 ɪᴅ `{msg.forward_from_chat["id"]}`\n\n'
             await msg.reply(text, quote=True)
