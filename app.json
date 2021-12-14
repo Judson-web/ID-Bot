@@ -1,0 +1,52 @@
+{
+    "name": "ID-Bot",
+    "logo": "https://telegra.ph//file/b2b29fc7295e0c8402016.jpg",
+    "description": "A SIMPLE TELEGRAM BOT TO GET ID OF A PERSON CHANNEL OR A STICKER PACK.....",
+    "keywords": [
+        "Telegram",
+        "ID",
+        "Bot"
+    ],
+    "repository": "https://github.com/Judson-web/ID-Bot",
+    "website": "https://github.com/Judson-web",
+    "success_url": "http://t.me/TGIdsSTMBot",
+    "env": {
+        "API_HASH": {
+            "description": "Your API Hash From @MT_MyTelegramOrg_Bot",
+            "required": "True",
+            "value": "required"
+        },
+        "API_ID": {
+            "description": "Your APP ID From @MT_MyTelegramOrg_Bot",
+            "required": "True",
+            "value": "required"
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "required": "True",
+            "value": "required"
+        },
+        "BOT_USERNAME": {
+            "description": "Bot UserName Without @",
+            "required": "True",
+            "value": "required"
+        },
+        "UPDATE_CHANNEL": {
+            "description": "Channel User Name Without @",
+            "required": "True",
+            "value": "required"
+        }
+    },
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
